@@ -7,9 +7,11 @@
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: .5px solid rgb(214, 209, 209);
-    font-family: sans-serif;
+    font-family: ProximaNovaRegular,Arial,Sans-Serif;
     font-size: 25px;
     font-weight: bold;
+    letter-spacing: 3px;
+    
 }
 #companyName+H1{
     text-align: center;
