@@ -1,0 +1,97 @@
+body{
+    overflow-y: scroll;
+}
+#main-body{
+    padding-left: 40px;
+    padding-right: 80px;
+
+}
+#firstImgbox{
+    height: 600px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    /* border: 1px solid red; */
+    background-image: url("https://www.rodanandfields.com/en-us/medias/22-Mini-HP-Banners-Desktop.jpg?context=bWFzdGVyfHJvb3R8MTc3NTUzfGltYWdlL2pwZWd8aGQxL2g3OC8xNTAzOTI4NDQ0NTIxNC5qcGd8YWNjYzUyZWI0Yzk3Zjc2YTIyZjRmODY0ZTQzMmExYTY3ZWNiNDAzNGEzZTcyMmNkMzE5NDZkYjkwNWFjNmM0Mw");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -8px;
+}
+#firstImgbox > div{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid red; */
+    padding: 65px 30px 30px 45px;
+}
+#firstImgbox > div > p{
+    width: 290px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color: rgb(45, 45, 45);
+    /* border: 1px solid red; */
+
+}
+#firstImgbox > div > p:nth-child(2){
+    font-size: 20px;
+    line-height: none;
+    height: 120px;
+    width: 330px;
+    letter-spacing: 0px;
+}
+#firstImgbox > div > p:nth-child(3){
+    font-size: 10px;
+    line-height: none;
+    height: 50px;
+    width: 310px;
+}
+#shop-now-btn{
+    height: 40px;
+    width: 280px;
+    font-size: 15px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    outline: 1px solid black;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+#shop-now-btn:hover{
+    outline: none;
+}
+#firstImgbox > div > p > a{
+    color: rgb(45, 45, 45);
+}
+#firstImgbox+p{
+    width: 103%;
+    height: 20px;
+    /* padding: 20px; */
+    /* border: 1px solid red; */
+}
+#firstImgbox+p>a{
+    float: right;
+    color: rgb(61, 57, 57);
+    font-weight: none;
+}
+#card-box{
+    height: 500px;
+    width: 103%;
+    background-image: url("https://www.rodanandfields.com/en-us/medias/Best-Sellers-Image-Desktop.jpg?context=bWFzdGVyfHJvb3R8NjA5MTd8aW1hZ2UvanBlZ3xoOTcvaGNkLzEyODg5MTg3ODExMzU4LmpwZ3w2ZGZjZGYxNzg4ZDY2ODI2NzQyZTMyNGI2YmExYmRkNGNjYTBkNGI4MzE5OTIwM2M4M2Q1MGZlMmY1YmFjMDJk");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+.card{
+    height: 100%;
+    width: 300px;
+    border: 1px solid red;
+
+
+}
