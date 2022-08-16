@@ -60,6 +60,12 @@ Gulzzish:(cart page,payment page)
 
 Shivam Shrivastava:(our story page,and other pages)
 
+Deployment:
+------------
+We have deployed it on netlify site.
+
+Deployment Link : https://quiet-raindrop-90d4c4.netlify.app/index.html 
+
 PROBLEMS..
 --------
 
